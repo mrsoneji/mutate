@@ -1,0 +1,21 @@
+{
+  "name": "mutate-map",
+  "version": "1.0.0",
+  "description": "Mapping helper for Javascript",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrsoneji/mutate.git"
+  },
+  "keywords": [
+    "map",
+    "reduce",
+    "javascript"
+  ],
+  "author": "Mr.Soneji <sebastian.pucheta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrsoneji/mutate/issues"
+  },
+  "homepage": "https://github.com/mrsoneji/mutate"
+}
