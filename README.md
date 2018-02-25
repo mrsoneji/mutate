@@ -110,7 +110,8 @@ Above example will mutate this Twitter API's response from this...
 
 Into this:
 
- ```{
+ ```
+ {
     "tweet_id": 967601268087754800,
     "text": "I'm a non-coder working with what I hope is JavaScript (within Wix) and I need help with a smal... https://t.co/66WGq0bqOz",
     "author": "AjaxTips"
