@@ -7,7 +7,8 @@ Usage:
 ```{
     const mutate = require('mutate-map')
     const tweets = mutate(tweetsResponse.statuses, { tweet_id: 'id', text: 'text', author: 'user.screen_name', hashtags: 'entities.hashtags.text', user_mentions: 'entities.user_mentions.screen_name' })
-}```
+}
+```
 
 Above example will mutate this Twitter API's response from this...
 
@@ -104,7 +105,8 @@ Above example will mutate this Twitter API's response from this...
       "possibly_sensitive": false,
       "lang": "en"
     }
-]```
+]
+```
 
 Into this:
 
@@ -112,4 +114,5 @@ Into this:
     "tweet_id": 967601268087754800,
     "text": "I'm a non-coder working with what I hope is JavaScript (within Wix) and I need help with a smal... https://t.co/66WGq0bqOz",
     "author": "AjaxTips"
- }```
+ }
+ ```
