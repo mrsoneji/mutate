@@ -3,6 +3,7 @@ function mutate(arrayOrObject, schema, result) {
 		return arrayOrObject.map((el) => {
 			let returnValue = {}
 			for (var key in schema) {
+			    // if (typeof returnValue[key] === 'undefined') return 
 	    		returnValue[key] = inner_loop(el, schema[key])
 			}
 			return returnValue
@@ -14,6 +15,7 @@ function inner_loop (element, path) {
 	let prevArr = []
 
     return path.split('.').reduce((el, key, count, arr) => { 
+		if (el === null) return null
 		if ( prevArr.length > 0 ) {
 			let returnValue = mapArray(prevArr, key)
 			returnValue = (returnValue !== undefined) ? returnValue : []
